@@ -36,9 +36,9 @@ El JSON se divide en dos secciones principales: `purchaseOrder` y `item`. A cont
 | `orderDate`                      | `date`     | Fecha de la orden                                   | `"2024-08-15"`                                            |
 | `pickupPoint`                    | `object`   | Detalles del punto de recogida                      | `{"country": "US", "city": "Miami", "addressLocation": "NW 21st St"}` |
 | `documentType`                   | `string`   | Tipo de documento                                   | `"Factura"`                                               |
-| `origin`                         | `string`   | Punto de origen                                     | `"Miami"`                                                 |
-| `destination`                    | `string`   | Punto de destino                                    | `"Panamá"`                                                |
-| `uid`                            | `string`   | Identificador único                                 | `"4Trb64aDFRTbRivq2sQdtxwu6En2"`                          |
+| `origin`                         | `string`   | Puerto de origen                                    | `"Miami"`                                                 |
+| `destination`                    | `string`   | Puerto de destino                                   | `"Panamá"`                                                |
+| `uid`                            | `string`   | Identificador único de usuario                      | `"4Trb64aDFRTbRivq2sQdtxwu6En2"`                          |
 | `shipmentCarrier`                | `string`   | Transportista                                       | `"DHL"`                                                   |
 | `incotermName`                   | `string`   | Nombre del incoterm                                 | `"Free on Board"`                                         |
 | `shipmentVia`                    | `string`   | Método de envío                                     | `"Aéreo"`                                                 |
