@@ -13,7 +13,7 @@ El JSON se divide en dos secciones principales: `purchaseOrder` y `item`. A cont
 | `localization`                   | `string`   | Localización de la orden de compra                  | `"PANAMÁ"`                                                |
 | `seller`                         | `string`   | Nombre del vendedor                                 | `"ASTR THE LABEL"`                                        |
 | `companyName`                    | `string`   | Nombre de la empresa                                | `"IMPORTADORA MADURO"`                                    |
-| `receivedAt`                     | `string`   | Fecha de recepción de la orden de compra            | `"2024-09-03T10:00:00Z"`                                  |
+| `receivedAt`                     | `date`     | Fecha de recepción de la orden de compra            | `"2024-09-03T10:00:00Z"`                                  |
 | `currencyTotalCashExcludingTax`  | `string`   | Código de divisa para el total sin impuestos        | `"USD"`                                                   |
 | `direccion_tr`                   | `string`   | Dirección de entrega                                | `"Avenida Central, Panamá"`                               |
 | `eta`                            | `date`     | Fecha estimada de entrega                           | `"2024-09-10"`                                            |
