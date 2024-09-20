@@ -296,7 +296,7 @@ El JSON se divide en dos secciones principales: `purchaseOrder` y `item`. A cont
     "companyParent": "ATL",
     "company": "IMPORTADORA MADURO",
     "status": "DELIVERED",
-    "items: [{
+    "items": [{
         "itemNumber": 1,
         "pickupPoint": {
             "country": "US",
