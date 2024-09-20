@@ -225,3 +225,122 @@ El JSON se divide en dos secciones principales: `purchaseOrder` y `item`. A cont
     "company": "IMPORTADORA MADURO"
 }
 ```
+
+### Ejemplo de JSON completo para hacer la petición al enpoint - api/v1/purchaseOrder/createPurchaseOrdersFromSAP
+
+```json
+{
+    "localization": "PANAMÁ",
+    "seller": "ASTR THE LABEL",
+    "companyName": "IMPORTADORA MADURO",
+    "receivedAt": "2024-09-03T10:00:00Z",
+    "currencyTotalCashExcludingTax": "USD",
+    "direccion_tr": "Avenida Central, Panamá",
+    "eta": "2024-09-10",
+    "paymentTerms": "NET 30",
+    "totalCashExcludingTax": 1000.00,
+    "destinationPoint": {
+        "country": "PA",
+        "city": "Panamá",
+        "addressLocation": "Avenida Central"
+    },
+    "hasBooking": true,
+    "currencyTotalTaxValue": "USD",
+    "taxFree": false,
+    "currencyTotalCashIncludingTax": "USD",
+    "orderDeliveryDate": "2024-09-10",
+    "contactName": "Juan Pérez",
+    "paymentInstructions": "Pagar mediante transferencia bancaria",
+    "additionalCostsCode": "FLETE",
+    "estimatedDeliveryDate": "2024-09-12",
+    "buyer": "Importadora S.A.",
+    "additionalCostsValue": 150.00,
+    "incoterm": "FOB",
+    "paymentMethod": "Transferencia bancaria",
+    "orderDate": "2024-08-15",
+    "pickupPoint": {
+        "country": "US",
+        "city": "Miami",
+        "addressLocation": "NW 21st St"
+    },
+    "documentType": "Factura",
+    "origin": "Miami",
+    "destination": "Panamá",
+    "uid": "4Trb64aDFRTbRivq2sQdtxwu6En2",
+    "shipmentCarrier": "DHL",
+    "incotermName": "Free on Board",
+    "shipmentVia": "Aéreo",
+    "contactNumber": "+507 123-4567",
+    "additionalCostsDescripiton": "Costo por flete",
+    "confirmCount": 1,
+    "documentStatus": "En proceso",
+    "requestedDate": "2024-08-20",
+    "sendedFrom": "ASTR THE LABEL",
+    "sendedTo": "IMPORTADORA MADURO",
+    "buyerNameContactNumber": "Luis Rodríguez, +507 987-6543",
+    "contactEmail": "contacto@importadoramaduro.com",
+    "approval": true,
+    "entityId": "ENT12345",
+    "additionalDetails": "Ninguno",
+    "buyerName": "Importadora Maduro S.A.",
+    "totalTaxValue": 120.00,
+    "confirmDate": "2024-08-18",
+    "companyAddress": "Avenida Central, Panamá",
+    "purchaseOrder": "5100056042",
+    "totalCashIncludingTax": 1120.00,
+    "createdAt": "2024-08-17T15:15:16Z",
+    "trakingNumber": "EbyKyKAF2M0yFCCW8epf",
+    "shipmentId": "SHIP12345",
+    "shipmentNumber": "00000013",
+    "trackingNumber": "TRACK123456789",
+    "companyParent": "ATL",
+    "company": "IMPORTADORA MADURO",
+    "status": "DELIVERED",
+    "items: [{
+        "itemNumber": 1,
+        "pickupPoint": {
+            "country": "US",
+            "city": "Miami",
+            "addressLocation": "NW 21st St"
+        },
+        "currencyTaxRateBaseAmount": 71.75,
+        "taxRatePercentage": 7,
+        "description": "MUJER-RS SEÑORA",
+        "packageType": "PIEZA",
+        "pendingQuantity": 0,
+        "confirmPendingDate": null,
+        "additionalNotes": "Ninguna",
+        "sku": "000000150184850001",
+        "unitValue": 71.75,
+        "totalValue": 71.75,
+        "destinationPoint": {
+            "country": "PA",
+            "city": "Panamá",
+            "addressLocation": "Avenida Central"
+        },
+        "lastConsignee": "IMPORTADORA MADURO",
+        "taxRateValue": 5.02,
+        "releaseDate": "2024-08-15",
+        "center": "CENTRAL",
+        "confirmQuantity": 1,
+        "warehouse": "ALMACEN 1",
+        "taxRateBaseAmount": 71.75,
+        "tariffItem": "1234567890",
+        "currencyTotalValue": "USD",
+        "confirmDate": "2024-08-18",
+        "requiredAmount": 1,
+        "purchaseOrder": "5100056042",
+        "currencyUnitValue": 71.75,
+        "additionalInstructions": "Ninguna",
+        "currencyTaxRateValue": 5.02,
+        "taxRateCode": "IMPUESTO7",
+        "companyParent": "ATL",
+        "company": "IMPORTADORA MADURO"
+    },{
+        ...more Items
+    }]
+```
+
+
+
+
